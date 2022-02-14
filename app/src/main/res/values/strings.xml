@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EHA - Scan kit</string>
+    <string name="scan_qr">Scan QR</string>
+</resources>
