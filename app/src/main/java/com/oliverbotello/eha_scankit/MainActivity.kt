@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             val obj = data.getParcelableExtra(ScanUtil.RESULT) as HmsScan?
 
             obj?.let {
-                showMessage(applicationContext, it.toString())
+                showMessage(applicationContext, it.linkUrl.linkValue)
             }
         }
     }
